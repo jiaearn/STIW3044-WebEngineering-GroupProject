@@ -1,0 +1,327 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  width:500%;
+  max-width:1920px;
+  min-width:480px;
+  margin-left:auto;
+  margin-right:auto;
+  height:100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* input fields */
+/*input[type=text] {*/
+  
+/*  padding: 8px 5px;*/
+
+/*  display: inline-block;*/
+/*  border-color: black;*/
+/*}*/
+
+.input{
+  padding: 8px 0px;
+  width: 150px;
+  display: inline-block;
+  border-color: black;
+}
+
+form.search input[type=text]{
+  padding: 8px;
+  font-size: 17px;
+  border: 1px solid grey;
+  width: 50%;
+  background: white;
+  position: absolute;
+  left: 120px;
+}
+
+form.search button:hover {
+  opacity: 1.0;
+}
+
+form.search::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.sortbtn{
+height: 37px;
+float:left;
+padding: 0px 20px 0px 20px;
+margin: 0px 0px 0px 30px;
+left: 40px;
+cursor: pointer;
+}
+
+.sortbtn:hover {
+color: black;
+background-color: gold;
+}
+
+.bigger{
+	font-size: 150%;
+}
+
+.space{
+    margin: 0 0 0 120px;
+}
+
+.s{
+    margin: 0 0 0 105px;
+}
+
+.sp{
+    margin: 0 0 0 50px;
+}
+
+.spa{
+    margin: 0 0 0 75px;
+}
+
+.spac{
+    margin: 0 0 0 90px;
+}
+
+.select{
+	
+}
+
+select.year{
+padding: 0px 20px 0px 20px;
+margin: 0px 0px 0px 30px;
+height: 37px;
+left: 40px;
+float:left;
+cursor: pointer;
+}
+
+select.country{
+height: 37px;
+float:left;
+padding: 0px 20px 0px 20px;
+margin: 0px 0px 0px 30px;
+left: 40px;
+cursor: pointer;
+}
+
+/* Add padding to containers */
+.container{
+ width:80%;
+}
+
+.container2{
+	margin: 0px 45px 0px 30px;
+}
+
+.manage{
+  border: 2px solid black;
+  padding: 0px 20px 0px 20px;
+  margin: 0px 0px 0px 30px;
+  float:left;
+  font-size: 16px;
+  background-color: gold;
+}
+
+.university{
+  width:95.5%;
+  border: 2px solid black;
+  /*padding: 0px 300px 0px 20px;*/
+  margin: 0px 30px 0px 30px;
+  float:left;
+  font-size: 16px;
+  text-align: center;
+  background-color: gold;
+}
+
+.rankingsindicator{
+width:25%;
+border: 2px solid black;
+padding: 0px 300px 0px 20px;
+margin: 0px 0px 0px 30px;
+float:left;
+font-size: 16px;
+background-color: white;
+}
+
+.ranking{
+    width:25%;
+    border: 2px solid black;
+    padding: 0px 300px 0px 20px;
+    margin: 0px 0px 0px 30px;
+    float:left;
+    font-size: 16px;
+    background-color: gold;
+}
+
+.universityranking{
+    width:25%;
+    border: 2px solid black;
+    padding: 0px 300px 0px 20px;
+    margin: 0px 30px 0px 30px;
+    float:left;
+    font-size: 16px;
+    background-color: white;
+    
+}
+
+.universitybtn {
+    background-color: white;
+    border: 2px solid black;
+    padding: 0px 440px 0px 20px;
+    margin: 0px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;
+    left: 0px;
+    font-family: Times New Roman;
+}
+
+icon_container{
+  text-align: right;
+}
+
+
+h2 {
+   padding: 8px;
+   margin: 3px;
+}
+
+.rankingbtn {
+  background-color: white;
+  border: 2px solid black;
+  padding: 16px 458px 15px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  cursor: pointer;
+  position: absolute;
+  right: 0px;
+  font-family: Times New Roman;
+}
+
+.addbtn{
+  background-color: gold;
+  border: 2px solid black;
+    width: 420px;
+    height: 40px;
+    margin: 20px 40px 20px 55px;
+    font-size: 16px;
+    text-align: center;
+    font-family: Times New Roman;
+}
+
+.addbtnn{
+  background-color: white;
+  border: 2px solid black;
+    width: 420px;
+    height: 40px;
+    margin: 20px 40px 20px 55px;
+    font-size: 16px;
+     cursor: pointer;
+    text-align: center;
+    font-family: Times New Roman;
+}
+
+.editbtn {
+  background-color: white;
+  border: 2px solid black;
+    width: 420px;
+    height: 40px;
+    margin: 20px 40px 20px 40px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    font-family: Times New Roman;
+}
+
+.updatebtn {
+  background-color: white;
+  border: 2px solid black;
+  width: 420px;
+    height: 40px;
+    margin: 20px 20px 20px 0px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  font-family: Times New Roman;
+}
+
+.deletebtn {
+  background-color: white;
+  border: 2px solid black;
+  width: 420px;
+    height: 40px;
+   margin: 20px 40px 20px 40px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  font-family: Times New Roman;
+}
+
+.deletebtnn {
+  background-color: gold;
+  border: 2px solid black;
+  width: 420px;
+    height: 40px;
+    margin: 20px 40px 20px 40px;
+  font-size: 16px;
+  text-align: center;
+  font-family: Times New Roman;
+}
+
+.add1btn {
+  background-color: grey;
+  color: black;
+  padding: 8px 20px;
+  margin: 0px 0;
+  border: black;
+  font-size:16px;
+  cursor: pointer;
+  box-shadow: 2px 4px black;
+  position: absolute;
+  right: 50px;
+	
+}
+
+.searchbtn {
+	position: absolute;
+	right: 502px;
+  padding: 8px 10px;
+  background: grey;
+  opacity: 0.8;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+.deletebtn:hover {
+background-color: #d3d3d3;
+}
+
+.editbtn:hover{
+background-color: #d3d3d3;
+}
+
+.addbtnn:hover{
+    background-color: #d3d3d3;
+}
+
+.btn2{
+  background-color: transparent;
+  color:grey;
+	border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+	margin: 0px 15px 0px 25px;
+}
+
+.btn2:hover {
+color: black;
+}

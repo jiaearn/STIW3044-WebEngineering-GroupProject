@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+background-color: white;
+margin: 0;
+padding: 0;
+width:500%;
+max-width:1920px;
+min-width:480px;
+margin-left:auto;
+margin-right:auto;
+height:100%;
+overflow-y: auto;
+overflow-x: hidden;
+}
+
+.container{
+width:80%;
+} 
+
+.view{
+border: 2px solid black;
+padding: 0px 20px 0px 20px;
+margin: 0px 0px 0px 30px;
+float:left;
+font-size: 16px;
+background-color: gold;
+}
+
+img{
+	margin-left: 10px;
+	
+}
+
+
+.information{
+	font-size: 20px;
+	margin-left: 10px;
+	
+	
+}
+
+
+.container2 {
+    height:auto;
+    padding:1%;
+}
+
+.icon {
+    float:left; 
+	height:150px;
+	width:250px; 
+}
+
+
+h4{
+	font-size: 20px;
+}

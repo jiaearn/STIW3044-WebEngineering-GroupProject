@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bgmodaleditform1 {
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            position: absolute;
+            top: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            display: none;
+        }
+
+        .modal-contenteditform1 {
+            width: 380px;
+            height: 500px;
+            background-color: white;
+            opacity: 1;
+            border-radius: 10px;
+            padding: 20px;
+            border: 2px solid;
+            position: relative;
+        }
+
+        .containereditform1 {
+            margin-left: auto;
+            margin-right: auto;
+            width: 325px;
+            height: 250px;
+            border-radius: 10px;
+            background-color: white;
+            padding: 0px 20px 20px 20px;
+            border: 1px solid;
+        }
+
+
+        /*Each Row*/
+        .roweditform1 {
+            margin-top: 20px;
+            width: 325px;
+            display: block;
+        }
+
+        /*Text Field*/
+        .roweditform1 .inputTextEditForm1 {
+            width: 175px;
+            height: 20px;
+            border: 1px solid;
+            border-radius: 3px;
+            padding-left: 3px;
+            float: right;
+        }
+
+        /*Update Edit Form 1 Button*/
+        .roweditform1 .updateeditform1 {
+            margin-top: 40px;
+            width: 200px;
+            height: 35px;
+            font-weight: bold;
+            border-width: 0 0 1px;
+            border-radius: 5px;
+            background: #2296F3;
+            cursor: pointer;
+            color: #ffffff;
+        }
+
+        /*Update Edit Form 1 Button Hover*/
+        .roweditform1 .updateeditform1:hover {
+            box-shadow: 0 0 10px 10px hsla(198, 100%, 50%, 0.5);
+            color: #ffffff;
+            background: #2296F3;
+            border: 0;
+        }
+
+        /*Close Edit Form 1 Icon*/
+        .closeeditform1 {
+            float: right;
+            cursor: pointer;
+        }
+
+        /*Image*/
+        .editform1icon {
+            text-align: center;
+        }

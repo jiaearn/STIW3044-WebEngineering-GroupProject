@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    width:500%;
+    max-width:1920px;
+    min-width:480px;
+    margin-left:auto;
+    margin-right:auto;
+    height:100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.container{
+    width:80%;
+}
+
+.view{
+  border: 2px solid black;
+    padding: 0 20px 0 20px;
+    margin: 0 0 0 30px;
+    float:left;
+    font-size: 16px;
+    background-color: gold;
+}
+
+img{
+	margin-left: 10px;
+}
+
+.solid{
+	border: 5px solid grey;
+	margin-left: 10px;
+	margin-right: 50px;
+}
+
+.information{
+	font-size: 20px;
+}
+
+.addbtn{
+	background-color: transparent;
+	border: none;
+	position: absolute;
+	left: 40%;
+	
+}
+
+
+.container2 {
+    height:auto;
+    padding:1%;
+}
+
+.icon {
+    float:left; 
+	height:150px;
+	width:250px; 
+}
+
+.size {
+	border: solid black;
+}
+
+.info{
+    border: transparent;
+  
+}
+
+.location {
+	border: solid black;
+}
+
+h4{
+	font-size: 20px;
+}

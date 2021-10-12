@@ -1,0 +1,101 @@
+@charset "utf-8";
+/*Admin Nav CSS*/
+.threeline {
+left: 20px;
+transition: left 0.25s ease-in-out, opacity 0.25s ease-in-out;
+cursor: pointer;
+position:relative;
+}
+
+.line {
+width: 35px;
+height: 5px;
+background-color: black;
+margin: 6px 0;
+border-radius: 25px;
+}
+
+.threeline--move {
+left: 220px;
+}
+
+.navbar {
+position: absolute;
+z-index: 1;
+top: 50;
+left: -200px;
+width: 200px;
+height: 100%;
+background: #222222;
+border-right: 2px solid #222222;
+/* box-shadow: 0 0 10px 5px rgba(0, 0, 0, 025);*/
+opacity: 0;
+transition: left 0.25s ease-in-out, opacity 0.25s ease-in-out;
+}
+
+.navbar--open {
+left: 0;
+opacity: 1;
+}
+
+.navbar__top {
+display: flex;
+align-items: center;
+background: #222222;
+color: #ffffff;
+padding: 15px 12px 15px 12px;
+text-decoration: none;
+font-size: 16px;
+border-bottom: 1px solid #ffffff;
+}
+
+.navbar__link {
+display: flex;
+align-items: center;
+background: #222222;
+color: #ffffff;
+padding: 12px;
+text-decoration: none;
+font-size: 16px;
+border-bottom: 1px solid #ffffff;
+transition: width 2s;
+}
+
+.navbar__link .material-icons {
+margin-left: auto;
+}
+
+.navbar__link:hover {
+background: #ffffff;
+color: #000000;
+}
+
+.navbar__bottom {
+width: 175px;
+position: absolute;
+bottom: 0;
+display: flex;
+align-items: center;
+background: #222222;
+color: #ffffff;
+padding: 12px;
+text-decoration: none;
+font-size: 16px;
+border-top: 1px solid #ffffff;
+}
+
+.navbar__bottom .material-icons {
+margin-left: auto;
+}
+
+.navbar__bottom:hover {
+background: #ffffff;
+color: #000000;
+}
+
+.navbar__blank {
+display: flex;
+height: 24px;
+padding: 12px;
+border-bottom: 1px solid #ffffff;
+}
